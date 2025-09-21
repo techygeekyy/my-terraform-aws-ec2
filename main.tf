@@ -1,3 +1,5 @@
+#Trigger Test - Minor Change
+
 provider "aws" {
   region = "us-east-1"
 }
