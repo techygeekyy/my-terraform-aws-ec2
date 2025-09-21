@@ -10,8 +10,9 @@ resource "aws_instance" "demo" {
   tags = {
     Name = "GitHub to Terraform to AWS_EC2 TO RUN"
   }
+}
+
 resource "aws_ec2_instance_state" "stop_demo_instance" {
   instance_id = aws_instance.demo.id
   state       = "stopped"
-}
 }
