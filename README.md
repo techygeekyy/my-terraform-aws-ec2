@@ -5,7 +5,7 @@ AWS EC2 instance Deployment using GitHub and HCP Terraform(Effective April 22, 2
 <br>
 This is my first cloud infrastructure project using Terraform and AWS. It demonstrates how to automatically deploy an EC2 instance using HCP Terraform and GitHub.
 <br>
-## **Tools Used**
+## Tools Used
 <br>
 -Terraform
 <br>
