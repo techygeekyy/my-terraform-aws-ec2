@@ -8,7 +8,7 @@ resource "aws_instance" "demo" {
   ami           = "ami-08982f1c5bf93d976" # Amazon Linux 2
   instance_type = "t3.micro"
   tags = {
-    Name = "GitHub to Terraform to AWS_EC2"
+    Name = "GitHub to Terraform to AWS_EC2 TO RUN"
   }
 }
 
