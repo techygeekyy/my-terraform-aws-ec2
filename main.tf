@@ -14,5 +14,5 @@ resource "aws_instance" "demo" {
 
 resource "aws_ec2_instance_state" "stop_demo_instance" {
   instance_id = aws_instance.demo.id
-  state       = "running"
+  state       = "stopped"
 }
